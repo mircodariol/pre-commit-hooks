@@ -1,0 +1,38 @@
+<!--Sample file to check script behavior.-->
+<ENVELOPEX>
+    <FILE_PROFILE>
+        <FILE_SETTINGS type="WIN32">
+            <BACKGROUND_CHECK>0</BACKGROUND_CHECK>
+            <DATA_LOADER_KEY></DATA_LOADER_KEY>
+        </FILE_SETTINGS>
+        <FILE_SETTINGS type="DOTNET">
+            <BACKGROUND_CHECK>0</BACKGROUND_CHECK>
+        </FILE_SETTINGS>
+        <FILE_SETTINGS type="Java">
+            <BACKGROUND_CHECK>0</BACKGROUND_CHECK>
+        </FILE_SETTINGS>
+        <FILE_SETTINGS type="WIN64">
+            <BACKGROUND_CHECK>0</BACKGROUND_CHECK>
+            <DATA_LOADER_KEY></DATA_LOADER_KEY>
+        </FILE_SETTINGS>
+        <FILE_SETTINGS type="WINNG">
+            <BACKGROUND_CHECK>0</BACKGROUND_CHECK>
+            <DATA_LOADER_KEY></DATA_LOADER_KEY>
+        </FILE_SETTINGS>
+        <FILE_SETTINGS type="WINV3">
+            <BACKGROUND_CHECK>0</BACKGROUND_CHECK>
+        </FILE_SETTINGS>
+        <FILE_ENTRY arch="w32" type="WINNG" id="17286615201" name="sample.exe" dll="0">
+            <FILE_SETTINGS>
+                <BACKGROUND_CHECK>0</BACKGROUND_CHECK>
+                <DATA_LOADER_KEY></DATA_LOADER_KEY>
+            </FILE_SETTINGS>
+        </FILE_ENTRY>
+    </FILE_PROFILE>
+    <HASPHL_PROFILE>
+        <BATCH_CODE></BATCH_CODE>
+        <DEMO_VENDOR>1</DEMO_VENDOR>
+        <PATH_VENDOR_CODE></PATH_VENDOR_CODE>
+        <VENDOR_CODE></VENDOR_CODE>
+    </HASPHL_PROFILE>
+</ENVELOPEX>

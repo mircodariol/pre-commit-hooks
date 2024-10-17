@@ -1,0 +1,26 @@
+- id: disable-periodic-background-checks
+  name: envelope - disable periodic background checks
+  description: disable periodic background checks on all envelope project
+  entry: disable-periodic-background-checks
+  language: python
+  stages: [pre-commit, pre-push, manual]
+  minimum_pre_commit_version: 3.2.0
+  files: .*\.prjx$
+
+- id: erase-data-loader-keys
+  name: envelope - erase data loader keys
+  description: remove all data loader keys from the envelope project
+  entry: erase-data-loader-keys
+  language: python
+  stages: [pre-commit, pre-push, manual]
+  minimum_pre_commit_version: 3.2.0
+  files: .*\.prjx$
+
+- id: erase-vendor-code
+  name: envelope - erase vendor code secrets
+  description: remove all vendor code secrets from the envelope project
+  entry: erase-vendor-code
+  language: python
+  stages: [pre-commit, pre-push, manual]
+  minimum_pre_commit_version: 3.2.0
+  files: .*\.prjx$

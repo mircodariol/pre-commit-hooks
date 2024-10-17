@@ -1,0 +1,38 @@
+<!--Sample file to check script behavior.-->
+<ENVELOPEX>
+    <FILE_PROFILE>
+        <FILE_SETTINGS type="WIN32">
+            <BACKGROUND_CHECK>300</BACKGROUND_CHECK>
+            <DATA_LOADER_KEY>sample key</DATA_LOADER_KEY>
+        </FILE_SETTINGS>
+        <FILE_SETTINGS type="DOTNET">
+            <BACKGROUND_CHECK>300</BACKGROUND_CHECK>
+        </FILE_SETTINGS>
+        <FILE_SETTINGS type="Java">
+            <BACKGROUND_CHECK>300</BACKGROUND_CHECK>
+        </FILE_SETTINGS>
+        <FILE_SETTINGS type="WIN64">
+            <BACKGROUND_CHECK>300</BACKGROUND_CHECK>
+            <DATA_LOADER_KEY>sample key</DATA_LOADER_KEY>
+        </FILE_SETTINGS>
+        <FILE_SETTINGS type="WINNG">
+            <BACKGROUND_CHECK>300</BACKGROUND_CHECK>
+            <DATA_LOADER_KEY>sample key</DATA_LOADER_KEY>
+        </FILE_SETTINGS>
+        <FILE_SETTINGS type="WINV3">
+            <BACKGROUND_CHECK>300</BACKGROUND_CHECK>
+        </FILE_SETTINGS>
+        <FILE_ENTRY>
+            <FILE_SETTINGS>
+                <BACKGROUND_CHECK>300</BACKGROUND_CHECK>
+                <DATA_LOADER_KEY>sample key</DATA_LOADER_KEY>
+            </FILE_SETTINGS>
+        </FILE_ENTRY>
+    </FILE_PROFILE>
+    <HASPHL_PROFILE>
+        <BATCH_CODE>The name of a private vendor code</BATCH_CODE>
+        <DEMO_VENDOR>1</DEMO_VENDOR>
+        <PATH_VENDOR_CODE>A path of vendor code file</PATH_VENDOR_CODE>
+        <VENDOR_CODE>A private vendor code value</VENDOR_CODE>
+    </HASPHL_PROFILE>
+</ENVELOPEX>
